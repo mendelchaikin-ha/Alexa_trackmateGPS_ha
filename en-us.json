@@ -1,0 +1,47 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "home assistant",
+      "intents": [
+        {
+          "name": "WhereIsBusIntent",
+          "slots": [
+            {
+              "name": "busNumber",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "where is bus {busNumber}",
+            "where's bus {busNumber}",
+            "where is bus number {busNumber}",
+            "how far is bus {busNumber}",
+            "what's the location of bus {busNumber}",
+            "is bus {busNumber} close",
+            "find bus {busNumber}",
+            "track bus {busNumber}",
+            "where is my bus {busNumber}",
+            "what is the location of bus {busNumber}"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
