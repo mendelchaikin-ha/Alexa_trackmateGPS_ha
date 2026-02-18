@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Home Assistant Bus Tracker",
+          "summary": "Ask Alexa where your school bus is using Home Assistant and TrackMate GPS.",
+          "description": "Track your school buses in real time using your Home Assistant TrackMate integration. Ask Alexa for the current location and distance from home for any bus.",
+          "examplePhrases": [
+            "Alexa, ask home assistant where is bus 2",
+            "Alexa, ask home assistant how far is bus 6",
+            "Alexa, ask home assistant where's bus 2"
+          ],
+          "keywords": [
+            "home assistant",
+            "bus tracker",
+            "trackmate",
+            "school bus",
+            "gps"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Set HA_URL, HA_TOKEN, and TRACKMATE_DOMAIN environment variables in Lambda.",
+      "category": "SMART_HOME",
+      "distributionCountries": ["US"]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
