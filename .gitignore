@@ -1,0 +1,12 @@
+# ASK CLI
+.ask/
+ask-states.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Lambda build artifacts
+lambda/*.zip
